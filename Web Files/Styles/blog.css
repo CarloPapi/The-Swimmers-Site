@@ -1,0 +1,231 @@
+body{
+    background-color: rgb(0, 118, 139);
+}
+
+#heading{
+    color: white;
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 8vh;
+    font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+}
+
+#background-image{
+    position: fixed;
+    margin-top: -10vh;
+    height: 40vh;
+    width: 100vw;
+    top: 10%;
+    z-index: -1;
+}
+
+#content-container{
+    margin-top: 50vh;
+}
+
+#content-heading{
+    color: wheat; 
+    text-align: center;
+    margin-top: 5%;
+    font-size: 7vh;
+    font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+}
+
+#swim-movie{
+    position: absolute;
+    left: 60%;
+    top: 90%;
+}
+
+#vid-caption{
+    position: absolute;
+    color: wheat; 
+    font-size: 3vh;
+    max-width: 40vw;
+    left: 15%;
+    margin-top: 5%;
+    box-shadow: 0 0 10px wheat;
+}
+
+#rundown-heading{
+    position: absolute;
+    left: 75%;
+    color: wheat;
+    font-size: 5vh;
+    top: -5%;
+    left: 160%;
+    text-decoration: underline;
+}
+
+#rundown-container{
+    position: absolute;
+    margin-top: 20%;
+    color: wheat;
+    font-size: 2vh;
+    max-width: 33vw;
+    left: 7%;
+}
+
+#challenger{
+    color: wheat;
+    font-size: 4vh;
+    margin-left: 50%;
+    text-decoration: underline;
+}
+
+#rundown-caption{
+    color: wheat;
+    box-shadow: 0 0 5px wheat;
+    font-size: 2.5vh;
+    margin-top: 2vh;
+    margin-left: 20vh;
+}
+
+.rundown{
+    position: absolute;
+    border-style: double;
+    font-size: 5vh;
+    text-decoration: underline;
+    left: 150%;
+}
+
+.day-caption{
+    border-style: none;
+    left: 145%;
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+.rundown-content{
+    position: absolute;
+    font-size: 2vh;
+    min-width: 500px;
+    text-decoration: none;
+}
+
+.indent{
+    text-indent: 50px;
+}
+
+#day1-caption{
+    top: 15%;
+}
+
+#day1-content{
+    top: 15%;
+    left: 164%;
+}
+
+#day2-caption{
+    top: 30%;
+}
+
+#day2-content{
+    top: 35%;
+    left: 164%;
+}
+
+#day3-caption{
+    top: 50%;
+}
+
+#day3-content{
+    top: 40%;
+    left: 164%;
+    margin-top: 100px;
+}
+
+#takeaway-caption{
+    position: absolute;
+    font-size: 8vh;
+    color: wheat;
+    left: -70%;
+}
+
+#takeaway{
+    position: absolute;
+    color: wheat;
+    font-size: 2vh;
+    max-width: 30vw;
+    top: 200%;
+    left: 45%;
+    box-shadow: 0 0 10px wheat;
+}
+
+#buttons-container{
+    background-color: rgb(67, 69, 67);
+    position: fixed;
+    height: 255vh;
+    width: 12vw;
+    margin-top: -2vw;
+    top: 0%;
+    z-index: 1;
+    left: 0.15%; 
+}
+
+.content{
+    z-index: 1;
+    color: white;
+    left: 0%;
+    font-size: 2.5vh;
+    margin-top: 6vh;
+    box-shadow: 0 0 6px white;
+}
+
+#button-content-container{
+    margin-top: 25vh;
+}
+
+
+#logo{
+    margin-top: -15vh;
+    font-size: 3vh;
+    box-shadow: none;
+}
+
+@media screen and (min-width: 1260px) and (max-width: 1920px) {
+    #rundown-heading{
+        top: 20%;
+    }
+    #day1-caption{
+        top: 35%;
+    }
+    #day1-content{
+        top: 40%;
+        font-size: 3vh;
+    }
+    #day2-caption{
+        top: 65%;
+    }
+    #day2-content{
+        top: 70%;
+        font-size: 3vh;
+    }
+    #day3-caption{
+        top: 95%;
+    }
+    #day3-content{
+        top: 80%;
+        font-size: 3vh;
+    }
+    #challenger{
+        margin-top: 10vh;
+    }
+    #rundown-caption{
+        margin-top: 25%;
+        min-width: 35vw;
+        margin-left: 20%;
+    }
+    #takeaway-caption{
+        position: absolute;
+        top: -80%;
+        left: 10%;
+        text-decoration: underline;
+    }
+    #takeaway{
+        top: 240%;
+        font-size: 2.5vh;
+        min-width: 60vw;
+        left: 40%;
+    }
+}

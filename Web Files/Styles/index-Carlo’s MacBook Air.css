@@ -1,0 +1,168 @@
+body{
+    background-color: black; 
+}
+
+#heading, .loading-obj{
+    visibility: hidden; 
+}
+
+#heading{
+    color: white;
+    text-align: center;
+    margin-top: 40vh;
+    font-size: 8vh;
+    font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+}
+
+.loading-obj{
+    color: white;
+    text-align: center;
+    font-size: 10vh;
+    font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+}
+
+#loading-gif{
+    position: absolute;
+    left: 20%;
+    z-index: -1;
+}
+
+#background-image{
+    position: fixed; 
+    margin-top: -10vh;
+    height: 40vh;
+    width: 100vw;
+    top: 10%;
+    z-index: -1;
+    visibility: hidden;
+}
+
+@keyframes expandImage { 
+    25%{
+        width: 25vw;
+    }
+    50%{
+        width: 50vw;
+    }
+    75%{
+        width: 75vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+
+#content-space{ 
+    height: 25vh;
+}
+
+#dive{
+    position: absolute;
+    visibility: hidden;
+    margin-top: 200vh;
+    margin-left: 17vw;
+    height: 50vh;
+    width: 25vw;
+    border-radius: 2vw;
+    z-index: -1;
+}
+
+#bioHeader, #bioContent{
+    position: absolute;
+    margin-top: 205vh;
+    left: 45%;
+    color: white;
+    font-size: 4vh;
+    font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+}
+
+#bioContent{
+    font-size: 2vh;
+    margin-top: 215vh;;
+}
+
+
+@keyframes expandSidebar {
+    25%{
+        width: 3vw;
+    }
+    50%{
+        width: 6vw;
+    }
+    75%{
+        width: 9vw;
+    }
+    100%{
+        width: 12vw;
+    }
+}
+
+#container-content{
+    margin-top: 250%;
+}
+
+#buttons-container{
+    background-color: rgb(67, 69, 67);
+    visibility: hidden;
+    position: fixed;
+    height: 255vh;
+    width: 12vw;
+    margin-left: -2vw;
+}
+
+.content{
+    z-index: 1;
+    color: white;
+    margin-left: 18%;
+    font-size: 2.5vh;
+    margin-top: 6vh;
+    box-shadow: 3px 3px 6px white;
+    visibility: hidden;
+}
+
+#logo{
+    margin-top: -15vh;
+    font-size: 3vh;
+    box-shadow: none;
+}
+
+@media screen and (min-width: 1260px) and (max-width: 1920px) { /* Scaling for laptop */
+    #heading{
+     margin-top: 15vh;
+    }
+    #dive{
+     margin-top: 225vh;
+    }
+    #bioHeader{
+     margin-top: 230vh;
+    }
+    #bioContent{
+     margin-top: 245vh;
+    }
+    #buttons-container{
+        width: 15vw;
+    }
+    .content{
+        font-size: 3vh;
+    }
+    #container-content{
+        margin-top: 650%;
+    }
+ }
+
+ #warning{
+    visibility: hidden;
+ }
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: red;
+    }
+    #warning{
+        visibility: visible;
+    }
+    .body-element{
+        visibility: hidden;
+    }
+}
+

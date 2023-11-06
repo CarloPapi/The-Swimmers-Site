@@ -1,0 +1,229 @@
+body{
+    background-color: rgb(0, 118, 139);
+}
+
+#background-image{
+    position: fixed; 
+    margin-top: -10vh;
+    height: 40vh;
+    width: 100vw;
+    top: 10%;
+    z-index: -1;
+}
+
+#heading{
+    color: wheat;
+    text-align: center;
+    font-size: 10vh;
+    margin-top: 20vh;
+}
+
+.products{
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    border-color: wheat;
+    border-style: dotted;
+}
+
+.product-captions{
+    position: absolute;
+    font-size: 5vh;
+    color: wheat;
+}
+
+.product-prices{
+    position: absolute;
+    font-size: 3vh;
+    color: wheat;
+    border-style: solid;
+}
+
+.product-descriptions{
+    position: absolute;
+    color: wheat;
+    max-width: 15vw;
+    font-size: 1.5vh;
+    
+}
+
+.buy-buttons{
+    position: absolute;
+    background-color: wheat;
+    width: 7vw;
+    height: 5vh;
+    font-size: 2vh;
+    color: rgb(255, 137, 116)
+}
+
+#pull-buoy{
+    left: 20%;
+    top: 35%;
+}
+
+#bouy-caption{
+    top: 60%;
+    left: 20%;
+}
+
+#buoy-price{
+    left: 24%;
+    top: 69%;
+}
+
+#buoy-description{
+    left: 20%;
+    top: 75%;
+}
+
+#bouy-buy-button{
+    left: 23%;
+    top: 95%;
+}
+
+#kickboard{
+    top: 35%;
+    left: 45%;
+}
+
+#kickboard-caption{
+    top: 60%;
+    left: 45%
+}
+
+#board-price{
+    top: 69%;
+    left: 48%;
+}
+
+#board-description{
+    top: 75%;
+    left: 45%;
+}
+
+#board-buy-button{
+    top: 95%;
+    left: 47%;
+}
+
+#vanquisher-goggles{
+    top: 35%;
+    left: 70%;
+    width: 12vw;
+}
+
+#vanquishers-caption{
+    font-size: 4.5vh;
+    top: 57%;
+    left: 68%;
+    max-width: 25vw;
+}
+
+#vanquishers-price{
+    top: 69%;
+    left: 75%;
+}
+
+#vanquishers-description{
+    top: 75%;
+    left: 70%;
+}
+
+#vanquishers-buy-button{
+    top: 95%;
+    left: 73%;
+}
+
+#crocs{
+    top: 105%;
+    left: 46%;
+}
+
+#crocs-caption{
+    left: 45%;
+    top: 130%;
+}
+
+#crocs-price{
+    top: 140%;
+    left: 42%;
+}
+
+#crocs-description{
+    top: 150%;
+    left: 47%;
+    font-size: 3vh;
+}
+
+#crocs-buy-button{
+    top: 160%;
+    left: 48%;
+}
+
+#buttons-container{
+    background-color: rgb(67, 69, 67);
+    position: fixed;
+    height: 255vh;
+    width: 12vw;
+    margin-left: -2vw;
+    top: 0%;
+}
+
+#container-content{
+    margin-top: 20vh;
+}
+
+.content{
+    z-index: 1;
+    color: white;
+    margin-left: 18%;
+    font-size: 2.5vh;
+    margin-top: 6vh;
+    box-shadow: 3px 3px 6px white;
+}
+
+#logo{
+    margin-top: -15vh;
+    font-size: 3vh;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 1920px) {
+    .products{
+        width: 15vw;
+        height: 30vh;
+    }
+    .product-captions{
+        margin-top: 100px;
+    }
+    .product-prices{
+        margin-top: 100px;
+        font-size: 5vh;
+    }
+    .product-descriptions{
+        margin-top: 125px;
+        font-size: 2vh;
+    }
+    .buy-buttons{
+        margin-top: 250px;
+        width: 14vw;
+        height: 10vh;
+        font-size: 4vh;
+        margin-left: -2.5vw;
+    }
+    #crocs{
+        top: 140%;
+    }
+    #crocs-caption{
+        top: 160%;
+    }
+    #crocs-price{
+        top: 170%;
+    }
+    #crocs-description{
+        top: 180%;
+    }
+    #crocs-buy-button{
+        top: 180%;
+    }
+}

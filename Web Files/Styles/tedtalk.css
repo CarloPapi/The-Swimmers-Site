@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(0, 118, 139);
+}
+
+#heading{
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 10vh;
+    color: wheat;
+}
+
+#buttons-container{
+    background-color: rgb(67, 69, 67);
+    position: fixed;
+    height: 255vh;
+    width: 12vw;
+    margin-left: -2vw;
+    top: 0%;
+}
+
+#container-content{
+    margin-top: 20vh;
+}
+
+.content{
+    z-index: 1;
+    color: white;
+    margin-left: 18%;
+    font-size: 2.5vh;
+    margin-top: 6vh;
+    box-shadow: 3px 3px 6px white;
+}
+
+#logo{
+    margin-top: -15vh;
+    font-size: 3vh;
+    box-shadow: none;
+}
+
+#tedtalk{
+    position: absolute;
+    margin-top: 20vh;
+    left: 40%;
+}
+
+@media screen and (max-width: 1500px) {
+    #tedtalk{
+        left: 35%;
+    }
+}
