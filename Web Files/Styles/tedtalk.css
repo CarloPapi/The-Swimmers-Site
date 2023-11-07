@@ -4,7 +4,7 @@ body{
 
 #heading{
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 40vh;
     font-size: 7vh;
     color: wheat;
 }
@@ -49,7 +49,7 @@ body{
 #tedtalk{
     position: absolute;
     margin-top: 20vh;
-    left: 40%;
+    left: 60%;
 }
 
 @media screen and (max-width: 1500px) {
