@@ -9,6 +9,15 @@ body{
     margin-top: 20vh;
 }
 
+#background-image{
+    position: fixed; 
+    margin-top: -10vh;
+    height: 40vh;
+    width: 100vw;
+    top: 10%;
+    z-index: -1;
+}
+
 #subheading{
     text-align: center;
     margin-top: 10vh;
