@@ -29,13 +29,13 @@ body{
 #audio-symbol{
     position: absolute;
     left: 42%;
-    margin-top: 20vh;
+    margin-top: 30vh;
 }
 
 #podcast-audio{
     position: absolute;
     left: 45%;
-    margin-top: 50vh;
+    margin-top: 60vh;
 }
 
 #buttons-container{
