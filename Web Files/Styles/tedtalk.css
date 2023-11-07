@@ -9,6 +9,15 @@ body{
     color: wheat;
 }
 
+#background-image{
+    position: fixed; 
+    margin-top: -10vh;
+    height: 40vh;
+    width: 100vw;
+    top: 10%;
+    z-index: -1;
+}
+
 #buttons-container{
     background-color: rgb(67, 69, 67);
     position: fixed;
