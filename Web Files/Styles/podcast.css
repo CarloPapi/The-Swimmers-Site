@@ -6,7 +6,7 @@ body{
     text-align: center;
     color: wheat;
     font-size: 10vh;
-    margin-top: 20vh;
+    margin-top: 40vh;
 }
 
 #background-image{
@@ -20,7 +20,7 @@ body{
 
 #subheading{
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 30vh;
     color: wheat;
     font-size: 5vh;
     margin-left: 7vw;
@@ -29,12 +29,13 @@ body{
 #audio-symbol{
     position: absolute;
     left: 42%;
+    margin-top: 40vh;
 }
 
 #podcast-audio{
     position: absolute;
     left: 45%;
-    top: 80%;
+    margin-top: 50vh;
 }
 
 #buttons-container{
