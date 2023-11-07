@@ -55,5 +55,9 @@ body{
 @media screen and (max-width: 1500px) {
     #tedtalk{
         left: 35%;
+    }   
+    #heading{
+        font-size: 5vh;
+        left: 10%;
     }
 }
