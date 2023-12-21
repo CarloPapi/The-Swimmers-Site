@@ -185,11 +185,7 @@ let main = () =>  {
    }, 1000)
 }
 
-if (window.innerHeight < 768) {
-    main = () => {
-        return;
-    }
-}
+
 
 
 document.addEventListener('DOMContentLoaded', main);
