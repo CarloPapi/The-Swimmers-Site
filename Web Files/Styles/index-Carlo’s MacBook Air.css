@@ -154,15 +154,4 @@ body{
     visibility: hidden;
  }
 
-@media screen and (max-width: 768px) {
-    body{
-        background-color: red;
-    }
-    #warning{
-        visibility: visible;
-    }
-    .body-element{
-        visibility: hidden;
-    }
-}
 
